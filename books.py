@@ -1,6 +1,10 @@
 from books_db import add_new_book, view_all_books, view_read_books, read_a_book
 # modified
 
+# added new func
+def new_func(name):
+    print(name)
+
 def new_book(user):
     title = input("Enter book's title: ")
     add_new_book(title, user)
